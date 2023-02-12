@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lpcApp", "lpcApp\lpcApp.csproj", "{D4A04F18-BC11-4DB5-97CF-A4CB219CD911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lpcDAL", "lpcDAL\lpcDAL.csproj", "{8C3A29E2-8AD1-4938-B353-7991C02ADA5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4A04F18-BC11-4DB5-97CF-A4CB219CD911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A04F18-BC11-4DB5-97CF-A4CB219CD911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A04F18-BC11-4DB5-97CF-A4CB219CD911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A04F18-BC11-4DB5-97CF-A4CB219CD911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3A29E2-8AD1-4938-B353-7991C02ADA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3A29E2-8AD1-4938-B353-7991C02ADA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3A29E2-8AD1-4938-B353-7991C02ADA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3A29E2-8AD1-4938-B353-7991C02ADA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F025BC9F-4A8D-4F93-8BF2-BE29780EEA4D}
+	EndGlobalSection
+EndGlobal

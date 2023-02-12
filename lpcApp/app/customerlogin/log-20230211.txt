@@ -1,0 +1,1069 @@
+2023-02-11 10:57:03.246 +03:00 [INF]  Application  Starting.
+2023-02-11 10:57:08.556 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 10:57:09.992 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 10:57:09.992 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 10:57:09.993 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 10:57:09.999 +03:00 [INF] Hosting environment: Development
+2023-02-11 10:57:10.000 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 10:57:11.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 10:57:11.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 167.5349ms
+2023-02-11 10:57:12.053 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 10:57:12.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.5240ms
+2023-02-11 10:57:34.447 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 55
+2023-02-11 10:57:34.454 +03:00 [INF] CORS policy execution failed.
+2023-02-11 10:57:34.455 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 10:57:34.458 +03:00 [INF] CORS policy execution failed.
+2023-02-11 10:57:34.458 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 10:57:34.512 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 10:57:34.581 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 10:57:34.991 +03:00 [ERR] Index was outside the bounds of the array.
+2023-02-11 10:57:35.073 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-02-11 10:57:35.085 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 492.3676ms
+2023-02-11 10:57:35.087 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 10:57:35.088 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 55 - 400 - text/plain;+charset=utf-8 641.4250ms
+2023-02-11 10:58:07.961 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 55
+2023-02-11 10:58:07.962 +03:00 [INF] CORS policy execution failed.
+2023-02-11 10:58:07.963 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 10:58:07.965 +03:00 [INF] CORS policy execution failed.
+2023-02-11 10:58:07.968 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 10:58:07.970 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 10:58:07.971 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 10:58:24.609 +03:00 [ERR] Index was outside the bounds of the array.
+2023-02-11 10:58:24.653 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-02-11 10:58:24.653 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 16680.6614ms
+2023-02-11 10:58:24.655 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 10:58:24.662 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 55 - 400 - text/plain;+charset=utf-8 16701.2030ms
+2023-02-11 10:58:52.957 +03:00 [INF]  Application  Starting.
+2023-02-11 10:58:55.530 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 10:58:56.319 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 10:58:56.324 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 10:58:56.325 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 10:58:56.325 +03:00 [INF] Hosting environment: Development
+2023-02-11 10:58:56.326 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 10:58:57.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 10:58:57.910 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 198.3627ms
+2023-02-11 10:58:58.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 10:58:58.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.9038ms
+2023-02-11 10:59:05.379 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 55
+2023-02-11 10:59:05.388 +03:00 [INF] CORS policy execution failed.
+2023-02-11 10:59:05.388 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 10:59:05.391 +03:00 [INF] CORS policy execution failed.
+2023-02-11 10:59:05.391 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 10:59:05.430 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 10:59:05.478 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 10:59:05.780 +03:00 [ERR] Index was outside the bounds of the array.
+2023-02-11 10:59:56.381 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-02-11 10:59:56.395 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 50907.1016ms
+2023-02-11 10:59:56.399 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 10:59:56.400 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 55 - 400 - text/plain;+charset=utf-8 51021.7156ms
+2023-02-11 11:00:10.106 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 55
+2023-02-11 11:00:10.107 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:00:10.109 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:00:10.111 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:00:10.111 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:00:10.113 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:00:10.113 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 11:05:25.214 +03:00 [INF]  Application  Starting.
+2023-02-11 11:05:27.936 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 11:05:28.609 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 11:05:28.610 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 11:05:28.610 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 11:05:28.611 +03:00 [INF] Hosting environment: Development
+2023-02-11 11:05:28.611 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 11:05:29.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 11:05:30.007 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 131.5968ms
+2023-02-11 11:05:30.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 11:05:30.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.0615ms
+2023-02-11 11:06:07.692 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 73
+2023-02-11 11:06:07.698 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:06:07.699 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:06:07.702 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:06:07.702 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:06:07.752 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:06:07.796 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 11:06:08.097 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 11:06:08.111 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 304.6596ms
+2023-02-11 11:06:08.113 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:06:08.114 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 73 - 200 - text/plain;+charset=utf-8 422.1486ms
+2023-02-11 11:08:06.266 +03:00 [INF]  Application  Starting.
+2023-02-11 11:08:08.502 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 11:08:09.412 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 11:08:09.412 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 11:08:09.413 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 11:08:09.414 +03:00 [INF] Hosting environment: Development
+2023-02-11 11:08:09.414 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 11:08:10.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 11:08:10.887 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 162.2691ms
+2023-02-11 11:08:11.091 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 11:08:11.209 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 117.0830ms
+2023-02-11 11:08:17.927 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 73
+2023-02-11 11:08:17.934 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:08:17.934 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:08:17.937 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:08:17.938 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:08:17.982 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:08:18.022 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 11:08:18.291 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 11:08:18.303 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 271.4019ms
+2023-02-11 11:08:18.305 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:08:18.309 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 73 - 200 - text/plain;+charset=utf-8 381.7269ms
+2023-02-11 11:14:03.559 +03:00 [INF]  Application  Starting.
+2023-02-11 11:14:05.944 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 11:14:06.925 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 11:14:06.925 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 11:14:06.926 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 11:14:06.926 +03:00 [INF] Hosting environment: Development
+2023-02-11 11:14:06.927 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 11:14:08.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 11:14:08.335 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 206.8907ms
+2023-02-11 11:14:08.553 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 11:14:08.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 197.4907ms
+2023-02-11 11:14:19.350 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 73
+2023-02-11 11:14:19.355 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:14:19.356 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:14:19.361 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:14:19.361 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:14:19.417 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:14:19.487 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 11:14:19.807 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 11:14:19.816 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 322.1904ms
+2023-02-11 11:14:19.818 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:14:19.819 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 73 - 200 - text/plain;+charset=utf-8 468.6250ms
+2023-02-11 11:14:31.510 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 72
+2023-02-11 11:14:31.512 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:14:31.513 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:14:31.517 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:14:31.521 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:14:31.523 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:14:31.523 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 11:14:31.528 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 11:14:31.529 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 2.3819ms
+2023-02-11 11:14:31.530 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:14:31.531 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 72 - 200 - text/plain;+charset=utf-8 21.2764ms
+2023-02-11 11:20:07.117 +03:00 [INF]  Application  Starting.
+2023-02-11 11:20:09.535 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 11:20:10.311 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 11:20:10.319 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 11:20:10.320 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 11:20:10.320 +03:00 [INF] Hosting environment: Development
+2023-02-11 11:20:10.321 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 11:20:11.731 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 11:20:11.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 127.2753ms
+2023-02-11 11:20:12.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 11:20:12.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 175.8993ms
+2023-02-11 11:21:36.608 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 72
+2023-02-11 11:21:36.618 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:21:36.619 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:21:36.621 +03:00 [INF] CORS policy execution failed.
+2023-02-11 11:21:36.621 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 11:21:36.660 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:21:36.702 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 11:21:37.045 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 11:21:37.070 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 351.6958ms
+2023-02-11 11:21:37.075 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 11:21:37.076 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 72 - 200 - text/plain;+charset=utf-8 467.9159ms
+2023-02-11 11:29:33.929 +03:00 [INF]  Application  Starting.
+2023-02-11 11:29:40.356 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 11:29:41.990 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 11:29:41.999 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 11:29:42.013 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 11:29:42.015 +03:00 [INF] Hosting environment: Development
+2023-02-11 11:29:42.019 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 11:29:43.802 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 11:29:44.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 240.0864ms
+2023-02-11 11:29:44.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 11:29:44.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 197.5049ms
+2023-02-11 13:32:29.627 +03:00 [INF]  Application  Starting.
+2023-02-11 13:32:32.650 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 13:32:33.315 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 13:32:33.315 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 13:32:33.316 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 13:32:33.316 +03:00 [INF] Hosting environment: Development
+2023-02-11 13:32:33.317 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 13:32:35.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 13:32:35.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 156.4307ms
+2023-02-11 13:32:35.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 13:32:35.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.7509ms
+2023-02-11 13:34:04.556 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94
+2023-02-11 13:34:04.565 +03:00 [INF] CORS policy execution failed.
+2023-02-11 13:34:04.565 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 13:34:04.569 +03:00 [INF] CORS policy execution failed.
+2023-02-11 13:34:04.569 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 13:34:04.627 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 13:34:04.683 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 13:34:04.969 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 13:34:04.981 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 289.3541ms
+2023-02-11 13:34:04.983 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 13:34:04.984 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94 - 200 - text/plain;+charset=utf-8 427.5091ms
+2023-02-11 13:36:45.139 +03:00 [INF]  Application  Starting.
+2023-02-11 13:36:47.290 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 13:36:48.202 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 13:36:48.203 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 13:36:48.204 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 13:36:48.204 +03:00 [INF] Hosting environment: Development
+2023-02-11 13:36:48.204 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 13:36:49.247 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 13:36:49.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 144.2859ms
+2023-02-11 13:36:49.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 13:36:49.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.3136ms
+2023-02-11 13:36:57.311 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94
+2023-02-11 13:36:57.338 +03:00 [INF] CORS policy execution failed.
+2023-02-11 13:36:57.338 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 13:36:57.341 +03:00 [INF] CORS policy execution failed.
+2023-02-11 13:36:57.342 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 13:36:57.385 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 13:36:57.426 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 13:36:57.739 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 13:36:57.752 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 314.8712ms
+2023-02-11 13:36:57.756 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 13:36:57.756 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94 - 200 - text/plain;+charset=utf-8 445.0908ms
+2023-02-11 13:39:12.207 +03:00 [INF]  Application  Starting.
+2023-02-11 13:39:14.078 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 13:39:15.100 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 13:39:15.101 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 13:39:15.102 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 13:39:15.102 +03:00 [INF] Hosting environment: Development
+2023-02-11 13:39:15.102 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 13:39:16.360 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 13:39:16.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 151.5747ms
+2023-02-11 13:39:16.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 13:39:16.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.0367ms
+2023-02-11 13:39:27.460 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94
+2023-02-11 13:39:27.480 +03:00 [INF] CORS policy execution failed.
+2023-02-11 13:39:27.481 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 13:39:27.486 +03:00 [INF] CORS policy execution failed.
+2023-02-11 13:39:27.486 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 13:39:27.529 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 13:39:27.572 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 13:39:27.850 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 13:39:27.859 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 280.0485ms
+2023-02-11 13:39:27.861 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 13:39:27.862 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94 - 200 - text/plain;+charset=utf-8 402.0261ms
+2023-02-11 14:05:05.479 +03:00 [INF]  Application  Starting.
+2023-02-11 14:05:07.713 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 14:05:08.380 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 14:05:08.380 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 14:05:08.381 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 14:05:08.381 +03:00 [INF] Hosting environment: Development
+2023-02-11 14:05:08.381 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 14:05:09.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 14:05:09.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 131.6320ms
+2023-02-11 14:05:09.995 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 14:05:10.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 203.4548ms
+2023-02-11 14:05:30.929 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 14:05:30.940 +03:00 [INF] CORS policy execution failed.
+2023-02-11 14:05:30.941 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 14:05:30.944 +03:00 [INF] CORS policy execution failed.
+2023-02-11 14:05:30.945 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 14:05:31.000 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 14:05:31.051 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 14:05:31.353 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 14:05:31.366 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 304.8984ms
+2023-02-11 14:05:31.369 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 14:05:31.371 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 442.4385ms
+2023-02-11 14:12:30.334 +03:00 [INF]  Application  Starting.
+2023-02-11 14:12:32.552 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 14:12:33.453 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 14:12:33.453 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 14:12:33.454 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 14:12:33.454 +03:00 [INF] Hosting environment: Development
+2023-02-11 14:12:33.454 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 14:12:35.382 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 14:12:35.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 209.1864ms
+2023-02-11 14:12:35.864 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 14:12:35.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.6533ms
+2023-02-11 14:12:48.707 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 14:12:48.713 +03:00 [INF] CORS policy execution failed.
+2023-02-11 14:12:48.714 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 14:12:48.717 +03:00 [INF] CORS policy execution failed.
+2023-02-11 14:12:48.717 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 14:12:48.762 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 14:12:48.820 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 14:12:49.102 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 14:12:49.110 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 283.5993ms
+2023-02-11 14:12:49.114 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 14:12:49.115 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 407.9833ms
+2023-02-11 14:28:57.590 +03:00 [INF]  Application  Starting.
+2023-02-11 14:28:59.941 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 14:29:00.544 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 14:29:00.545 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 14:29:00.545 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 14:29:00.546 +03:00 [INF] Hosting environment: Development
+2023-02-11 14:29:00.546 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 14:29:01.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 14:29:02.029 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 136.1067ms
+2023-02-11 14:29:02.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 14:29:02.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.0094ms
+2023-02-11 16:48:55.414 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 16:48:55.423 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:48:55.423 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:48:55.427 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:48:55.427 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:48:55.479 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 16:48:55.536 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 16:48:55.853 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 16:48:55.868 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 320.9477ms
+2023-02-11 16:48:55.871 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 16:48:55.871 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 457.5954ms
+2023-02-11 16:52:39.407 +03:00 [INF]  Application  Starting.
+2023-02-11 16:52:42.009 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 16:52:42.598 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 16:52:42.598 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 16:52:42.599 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 16:52:42.600 +03:00 [INF] Hosting environment: Development
+2023-02-11 16:52:42.600 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 16:52:43.796 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 16:52:43.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 148.3514ms
+2023-02-11 16:52:44.184 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 16:52:44.391 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.4927ms
+2023-02-11 16:53:03.597 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 16:53:03.604 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:53:03.605 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:53:03.611 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:53:03.611 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:53:03.650 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 16:53:03.698 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 16:53:04.006 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 16:53:04.022 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 312.3196ms
+2023-02-11 16:53:04.024 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 16:53:04.025 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 428.3408ms
+2023-02-11 16:53:15.898 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91
+2023-02-11 16:53:15.899 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:53:15.900 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:53:15.901 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:53:15.906 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:53:15.907 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 16:53:15.908 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 16:53:15.953 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 16:53:15.954 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 36.8949ms
+2023-02-11 16:53:15.955 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 16:53:15.956 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91 - 200 - text/plain;+charset=utf-8 57.8011ms
+2023-02-11 16:53:33.879 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91
+2023-02-11 16:53:33.880 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:53:33.882 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:53:33.882 +03:00 [INF] CORS policy execution failed.
+2023-02-11 16:53:33.888 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 16:53:33.892 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 16:53:33.893 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 17:04:01.271 +03:00 [INF]  Application  Starting.
+2023-02-11 17:04:03.551 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 17:04:04.254 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 17:04:04.255 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 17:04:04.256 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 17:04:04.256 +03:00 [INF] Hosting environment: Development
+2023-02-11 17:04:04.256 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 17:04:05.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 17:04:05.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 178.3309ms
+2023-02-11 17:04:05.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 17:04:06.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.9494ms
+2023-02-11 17:07:51.208 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 17:07:51.218 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:07:51.218 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:07:51.222 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:07:51.222 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:07:51.264 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:07:51.315 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 17:07:51.601 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 17:07:51.611 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 287.5904ms
+2023-02-11 17:07:51.613 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:07:51.614 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 406.4668ms
+2023-02-11 17:23:56.843 +03:00 [INF]  Application  Starting.
+2023-02-11 17:23:59.164 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 17:24:00.019 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 17:24:00.020 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 17:24:00.020 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 17:24:00.025 +03:00 [INF] Hosting environment: Development
+2023-02-11 17:24:00.033 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 17:24:01.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 17:24:01.611 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 134.5380ms
+2023-02-11 17:24:01.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 17:24:02.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.6544ms
+2023-02-11 17:24:14.972 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 17:24:14.980 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:24:14.981 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:24:14.987 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:24:14.987 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:24:15.034 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:24:15.077 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 17:24:15.411 +03:00 [ERR] Invalid repayment frequency. Supported values are 'monthly', 'bi-monthly', and 'weekly'
+2023-02-11 17:24:33.695 +03:00 [INF]  Application  Starting.
+2023-02-11 17:24:35.560 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 17:24:36.629 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 17:24:36.629 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 17:24:36.630 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 17:24:36.630 +03:00 [INF] Hosting environment: Development
+2023-02-11 17:24:36.630 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 17:24:37.950 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 17:24:38.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 138.5660ms
+2023-02-11 17:24:38.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 17:24:38.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.6686ms
+2023-02-11 17:24:53.594 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 17:24:53.601 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:24:53.602 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:24:53.605 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:24:53.606 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:24:53.654 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:24:53.707 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 17:24:53.980 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 17:24:53.991 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 275.89ms
+2023-02-11 17:24:53.994 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:24:53.994 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 400.3722ms
+2023-02-11 17:25:16.628 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 17:25:16.632 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:25:16.632 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:25:16.634 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:25:16.635 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:25:16.644 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:25:16.646 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 17:26:46.837 +03:00 [INF]  Application  Starting.
+2023-02-11 17:26:48.945 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 17:26:49.958 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 17:26:49.959 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 17:26:49.962 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 17:26:49.962 +03:00 [INF] Hosting environment: Development
+2023-02-11 17:26:49.963 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 17:26:51.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 17:26:51.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 156.5885ms
+2023-02-11 17:26:51.817 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 17:26:52.027 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.4389ms
+2023-02-11 17:27:06.138 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91
+2023-02-11 17:27:06.145 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:27:06.145 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:27:06.148 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:27:06.148 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:27:06.199 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:27:06.245 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 17:27:06.551 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 17:27:06.559 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 307.6253ms
+2023-02-11 17:27:06.561 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:27:06.562 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91 - 200 - text/plain;+charset=utf-8 424.5601ms
+2023-02-11 17:27:35.560 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91
+2023-02-11 17:27:35.561 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:27:35.562 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:27:35.563 +03:00 [INF] CORS policy execution failed.
+2023-02-11 17:27:35.568 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 17:27:35.570 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:27:35.571 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 17:27:35.578 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 17:27:35.582 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 5.2129ms
+2023-02-11 17:27:35.582 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 17:27:35.584 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91 - 200 - text/plain;+charset=utf-8 23.4490ms
+2023-02-11 18:03:01.876 +03:00 [INF]  Application  Starting.
+2023-02-11 18:03:03.845 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 18:03:04.838 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 18:03:04.839 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 18:03:04.839 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 18:03:04.840 +03:00 [INF] Hosting environment: Development
+2023-02-11 18:03:04.840 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 18:03:06.123 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 18:03:06.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 189.7897ms
+2023-02-11 18:03:06.590 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 18:03:06.771 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.4213ms
+2023-02-11 18:03:21.865 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91
+2023-02-11 18:03:21.877 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:03:21.878 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:03:21.881 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:03:21.881 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:03:21.923 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:03:21.976 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 18:03:22.257 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 18:03:22.286 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 282.743ms
+2023-02-11 18:03:22.289 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:03:22.290 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91 - 200 - text/plain;+charset=utf-8 425.7983ms
+2023-02-11 18:14:13.105 +03:00 [INF]  Application  Starting.
+2023-02-11 18:14:16.414 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 18:14:17.156 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 18:14:17.157 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 18:14:17.158 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 18:14:17.158 +03:00 [INF] Hosting environment: Development
+2023-02-11 18:14:17.158 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 18:14:18.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 18:14:18.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 170.4095ms
+2023-02-11 18:14:18.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 18:14:19.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.0132ms
+2023-02-11 18:14:49.438 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91
+2023-02-11 18:14:49.452 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:14:49.452 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:14:49.455 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:14:49.456 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:14:49.499 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:14:49.539 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 18:14:49.902 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 18:14:49.917 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 365.1756ms
+2023-02-11 18:14:49.921 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:14:49.921 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 91 - 200 - text/plain;+charset=utf-8 483.2335ms
+2023-02-11 18:16:48.504 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 18:16:48.512 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:16:48.513 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:16:48.514 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:16:48.515 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:16:48.520 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:16:48.526 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 18:16:48.535 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 18:16:48.536 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 2.5994ms
+2023-02-11 18:16:48.537 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:16:48.538 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 33.8384ms
+2023-02-11 18:17:13.915 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94
+2023-02-11 18:17:13.918 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:17:13.923 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:17:13.925 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:17:13.932 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:17:13.937 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:17:13.938 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 18:17:13.945 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 18:17:13.946 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 2.3948ms
+2023-02-11 18:17:13.947 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:17:13.951 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94 - 200 - text/plain;+charset=utf-8 36.8746ms
+2023-02-11 18:19:20.429 +03:00 [INF]  Application  Starting.
+2023-02-11 18:19:22.878 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 18:19:23.623 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 18:19:23.623 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 18:19:23.624 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 18:19:23.625 +03:00 [INF] Hosting environment: Development
+2023-02-11 18:19:23.625 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 18:19:25.276 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 18:19:25.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 166.8965ms
+2023-02-11 18:19:25.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 18:19:25.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.1912ms
+2023-02-11 18:19:42.996 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94
+2023-02-11 18:19:43.004 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:19:43.004 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:19:43.008 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:19:43.008 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:19:43.058 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:19:43.106 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 18:19:43.363 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 18:19:43.379 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 260.6984ms
+2023-02-11 18:19:43.381 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:19:43.382 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94 - 200 - text/plain;+charset=utf-8 385.9850ms
+2023-02-11 18:20:46.243 +03:00 [INF]  Application  Starting.
+2023-02-11 18:20:49.008 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 18:20:49.778 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 18:20:49.778 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 18:20:49.780 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 18:20:49.786 +03:00 [INF] Hosting environment: Development
+2023-02-11 18:20:49.786 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 18:20:51.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 18:20:51.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 192.3716ms
+2023-02-11 18:20:51.501 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 18:20:51.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.2946ms
+2023-02-11 18:20:59.389 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94
+2023-02-11 18:20:59.414 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:20:59.415 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:20:59.417 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:20:59.417 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:20:59.454 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:20:59.497 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 18:20:59.766 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 18:20:59.783 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 270.9375ms
+2023-02-11 18:20:59.786 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:20:59.787 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 94 - 200 - text/plain;+charset=utf-8 400.8624ms
+2023-02-11 18:33:38.021 +03:00 [INF]  Application  Starting.
+2023-02-11 18:33:40.072 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 18:33:41.090 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 18:33:41.090 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 18:33:41.091 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 18:33:41.092 +03:00 [INF] Hosting environment: Development
+2023-02-11 18:33:41.092 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 18:33:42.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 18:33:42.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 214.7467ms
+2023-02-11 18:33:43.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 18:33:43.374 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.4406ms
+2023-02-11 18:33:56.783 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 18:33:56.794 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:33:56.794 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:33:56.798 +03:00 [INF] CORS policy execution failed.
+2023-02-11 18:33:56.798 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 18:33:56.845 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:33:56.918 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 18:33:57.261 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 18:33:57.270 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 344.3514ms
+2023-02-11 18:33:57.273 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 18:33:57.274 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 495.7252ms
+2023-02-11 22:28:03.253 +03:00 [INF]  Application  Starting.
+2023-02-11 22:28:05.525 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 22:28:06.576 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 22:28:06.576 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 22:28:06.577 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 22:28:06.577 +03:00 [INF] Hosting environment: Development
+2023-02-11 22:28:06.578 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 22:28:08.111 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 22:28:08.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 202.2527ms
+2023-02-11 22:28:08.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 22:28:08.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.8684ms
+2023-02-11 22:28:19.467 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:28:19.472 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:28:19.472 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:28:19.477 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:28:19.477 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:28:19.521 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:28:19.563 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:28:19.937 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:28:19.951 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 377.3355ms
+2023-02-11 22:28:19.955 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:28:19.956 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 489.2957ms
+2023-02-11 22:28:36.089 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:28:36.097 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:28:36.100 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:28:36.100 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:28:36.101 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:28:36.106 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:28:36.108 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:28:36.120 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:28:36.121 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 4.4997ms
+2023-02-11 22:28:36.125 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:28:36.126 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 37.4863ms
+2023-02-11 22:29:35.986 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:29:35.988 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:29:35.990 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:29:35.994 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:29:35.994 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:29:36.000 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:29:36.001 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:32:33.314 +03:00 [INF]  Application  Starting.
+2023-02-11 22:32:36.171 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 22:32:36.783 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 22:32:36.784 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 22:32:36.785 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 22:32:36.785 +03:00 [INF] Hosting environment: Development
+2023-02-11 22:32:36.785 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 22:32:37.985 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 22:32:38.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 177.1394ms
+2023-02-11 22:32:38.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 22:32:38.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.2624ms
+2023-02-11 22:32:56.942 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:32:56.951 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:32:56.951 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:32:56.954 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:32:56.954 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:32:56.997 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:32:57.043 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:32:57.371 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:32:57.391 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 335.62ms
+2023-02-11 22:32:57.395 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:32:57.396 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 454.2631ms
+2023-02-11 22:33:11.857 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:33:11.861 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:33:11.862 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:33:11.868 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:33:11.868 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:33:11.870 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:33:11.871 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:33:55.660 +03:00 [INF]  Application  Starting.
+2023-02-11 22:33:58.040 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 22:33:58.944 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 22:33:58.944 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 22:33:58.945 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 22:33:58.945 +03:00 [INF] Hosting environment: Development
+2023-02-11 22:33:58.945 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 22:34:00.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 22:34:00.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 250.6778ms
+2023-02-11 22:34:00.904 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 22:34:01.059 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.1918ms
+2023-02-11 22:34:08.702 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:34:08.727 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:34:08.728 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:34:08.733 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:34:08.733 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:34:08.775 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:34:08.816 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:34:14.245 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:34:14.258 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 5432.0932ms
+2023-02-11 22:34:14.261 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:34:14.262 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 5561.4000ms
+2023-02-11 22:34:28.854 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:34:28.856 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:34:28.858 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:34:28.861 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:34:28.861 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:34:28.863 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:34:28.866 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:35:11.763 +03:00 [INF]  Application  Starting.
+2023-02-11 22:35:14.034 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 22:35:14.798 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 22:35:14.799 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 22:35:14.800 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 22:35:14.800 +03:00 [INF] Hosting environment: Development
+2023-02-11 22:35:14.800 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 22:35:16.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 22:35:16.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 208.0314ms
+2023-02-11 22:35:16.931 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 22:35:17.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.7542ms
+2023-02-11 22:35:24.312 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:35:24.320 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:35:24.321 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:35:24.323 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:35:24.324 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:35:24.391 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:35:24.436 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:35:29.608 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:35:29.620 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 5175.1506ms
+2023-02-11 22:35:29.625 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:35:29.626 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 5313.7101ms
+2023-02-11 22:40:02.985 +03:00 [INF]  Application  Starting.
+2023-02-11 22:40:05.324 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 22:40:06.239 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 22:40:06.240 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 22:40:06.241 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 22:40:06.241 +03:00 [INF] Hosting environment: Development
+2023-02-11 22:40:06.243 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 22:40:07.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 22:40:08.037 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 236.9704ms
+2023-02-11 22:40:08.272 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 22:40:08.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.7886ms
+2023-02-11 22:40:17.099 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:40:17.109 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:40:17.109 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:40:17.112 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:40:17.112 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:40:17.158 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:40:17.200 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:40:17.504 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:40:17.517 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 309.5934ms
+2023-02-11 22:40:17.519 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:40:17.521 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 421.8760ms
+2023-02-11 22:44:24.585 +03:00 [INF]  Application  Starting.
+2023-02-11 22:44:27.139 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 22:44:27.944 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 22:44:27.946 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 22:44:27.947 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 22:44:27.947 +03:00 [INF] Hosting environment: Development
+2023-02-11 22:44:27.947 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 22:44:29.333 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 22:44:29.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 178.7450ms
+2023-02-11 22:44:29.778 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 22:44:29.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 162.1085ms
+2023-02-11 22:44:49.878 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:44:49.885 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:44:49.885 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:44:49.887 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:44:49.887 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:44:49.929 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:44:49.971 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:44:50.342 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:44:50.359 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 377.911ms
+2023-02-11 22:44:50.363 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:44:50.364 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 486.7804ms
+2023-02-11 22:55:47.534 +03:00 [INF]  Application  Starting.
+2023-02-11 22:55:50.775 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 22:55:51.495 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 22:55:51.498 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 22:55:51.505 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 22:55:51.506 +03:00 [INF] Hosting environment: Development
+2023-02-11 22:55:51.506 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 22:55:53.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 22:55:53.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 168.5718ms
+2023-02-11 22:55:53.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 22:55:53.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.2528ms
+2023-02-11 22:55:59.564 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:55:59.573 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:55:59.574 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:55:59.578 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:55:59.579 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:55:59.621 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:55:59.661 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:55:59.939 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:55:59.954 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 281.4162ms
+2023-02-11 22:55:59.956 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:55:59.957 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 392.8141ms
+2023-02-11 22:56:53.242 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:56:53.243 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:56:53.244 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:56:53.246 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:56:53.247 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:56:53.255 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:56:53.256 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:56:53.263 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:56:53.264 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 4.2524ms
+2023-02-11 22:56:53.265 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:56:53.266 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 24.0529ms
+2023-02-11 22:57:03.953 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 22:57:03.958 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:57:03.959 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:57:03.968 +03:00 [INF] CORS policy execution failed.
+2023-02-11 22:57:03.970 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 22:57:03.974 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:57:03.974 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 22:57:03.978 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 22:57:03.982 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 6.0215ms
+2023-02-11 22:57:03.987 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 22:57:03.995 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 42.1640ms
+2023-02-11 23:03:17.004 +03:00 [INF]  Application  Starting.
+2023-02-11 23:03:19.392 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:03:20.098 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:03:20.098 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:03:20.099 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:03:20.100 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:03:20.100 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:03:21.620 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:03:21.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 216.2620ms
+2023-02-11 23:03:22.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:03:22.239 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.6857ms
+2023-02-11 23:03:29.252 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 23:03:29.283 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:03:29.284 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:03:29.290 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:03:29.290 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:03:29.346 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:03:29.408 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:03:29.754 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:03:29.765 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 349.1954ms
+2023-02-11 23:03:29.767 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:03:29.768 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 516.6822ms
+2023-02-11 23:04:05.634 +03:00 [INF]  Application  Starting.
+2023-02-11 23:04:08.239 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:04:08.919 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:04:08.920 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:04:08.921 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:04:08.927 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:04:08.928 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:04:10.301 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:04:10.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 181.1085ms
+2023-02-11 23:04:10.723 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:04:10.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.0921ms
+2023-02-11 23:04:26.794 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 23:04:26.801 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:04:26.801 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:04:26.804 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:04:26.805 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:04:26.848 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:04:26.892 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:04:27.185 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:04:27.200 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 295.2784ms
+2023-02-11 23:04:27.203 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:04:27.204 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 409.8558ms
+2023-02-11 23:07:21.920 +03:00 [INF]  Application  Starting.
+2023-02-11 23:07:24.823 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:07:25.383 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:07:25.384 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:07:25.384 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:07:25.385 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:07:25.385 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:07:26.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:07:26.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 203.3926ms
+2023-02-11 23:07:27.080 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:07:27.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.1715ms
+2023-02-11 23:07:37.110 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 23:07:37.118 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:07:37.119 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:07:37.123 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:07:37.123 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:07:37.169 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:07:37.213 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:07:37.515 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:07:37.532 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 309.8413ms
+2023-02-11 23:07:37.535 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:07:37.535 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 425.6770ms
+2023-02-11 23:10:02.325 +03:00 [INF]  Application  Starting.
+2023-02-11 23:10:04.579 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:10:05.622 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:10:05.622 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:10:05.623 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:10:05.624 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:10:05.624 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:10:07.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:10:07.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 226.2509ms
+2023-02-11 23:10:07.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:10:07.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.2352ms
+2023-02-11 23:10:15.031 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-11 23:10:15.049 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:10:15.051 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:10:15.063 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:10:15.068 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:10:15.119 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:10:15.164 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:10:15.437 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:10:15.449 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 276.2289ms
+2023-02-11 23:10:15.451 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:10:15.452 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 420.8633ms
+2023-02-11 23:10:38.988 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:10:38.989 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:10:38.989 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:10:38.991 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:10:38.991 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:10:38.997 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:10:39.001 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:10:39.007 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:10:39.008 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 3.2985ms
+2023-02-11 23:10:39.009 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:10:39.011 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 23.2040ms
+2023-02-11 23:19:19.767 +03:00 [INF]  Application  Starting.
+2023-02-11 23:19:22.900 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:19:23.480 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:19:23.480 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:19:23.481 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:19:23.482 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:19:23.482 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:19:24.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:19:25.157 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 191.7229ms
+2023-02-11 23:19:25.382 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:19:25.541 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 159.4276ms
+2023-02-11 23:19:34.686 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:19:34.692 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:19:34.692 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:19:34.695 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:19:34.695 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:19:34.744 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:19:34.814 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:19:35.097 +03:00 [ERR] Index was outside the bounds of the array.
+2023-02-11 23:20:02.671 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-02-11 23:20:02.682 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 27858.9053ms
+2023-02-11 23:20:02.684 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:20:02.685 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 400 - text/plain;+charset=utf-8 27998.5555ms
+2023-02-11 23:20:05.222 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:20:05.223 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:20:05.227 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:20:05.228 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:20:05.228 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:20:05.237 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:20:05.242 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:20:05.296 +03:00 [ERR] Index was outside the bounds of the array.
+2023-02-11 23:20:13.711 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-02-11 23:20:13.711 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 8466.9218ms
+2023-02-11 23:20:13.714 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:20:13.715 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 400 - text/plain;+charset=utf-8 8493.3157ms
+2023-02-11 23:20:15.981 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:20:15.981 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:20:15.983 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:20:15.988 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:20:15.988 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:20:15.992 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:20:15.993 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:22:19.123 +03:00 [INF]  Application  Starting.
+2023-02-11 23:22:21.759 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:22:22.489 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:22:22.490 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:22:22.490 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:22:22.491 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:22:22.491 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:22:23.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:22:24.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 178.7707ms
+2023-02-11 23:22:24.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:22:24.560 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.1079ms
+2023-02-11 23:22:32.891 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:22:32.898 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:22:32.899 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:22:32.902 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:22:32.903 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:22:32.952 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:22:33.006 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:22:39.433 +03:00 [ERR] Index was outside the bounds of the array.
+2023-02-11 23:24:43.823 +03:00 [INF]  Application  Starting.
+2023-02-11 23:24:46.118 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:24:47.002 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:24:47.003 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:24:47.003 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:24:47.004 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:24:47.004 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:24:48.492 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:24:48.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 211.1833ms
+2023-02-11 23:24:48.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:24:49.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.0814ms
+2023-02-11 23:24:56.464 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:24:56.482 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:24:56.483 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:24:56.487 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:24:56.488 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:24:56.528 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:24:56.569 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:25:02.378 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:25:02.387 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 5810.8908ms
+2023-02-11 23:25:02.389 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:25:02.389 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 5924.7535ms
+2023-02-11 23:25:33.502 +03:00 [INF]  Application  Starting.
+2023-02-11 23:25:35.780 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:25:36.667 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:25:36.667 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:25:36.668 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:25:36.668 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:25:36.669 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:25:38.219 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:25:38.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 237.1817ms
+2023-02-11 23:25:38.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:25:38.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.0648ms
+2023-02-11 23:25:46.041 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:25:46.070 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:25:46.070 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:25:46.074 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:25:46.075 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:25:46.120 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:25:46.191 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:25:51.886 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:25:51.898 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 5698.648ms
+2023-02-11 23:25:51.900 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:25:51.901 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 5860.5484ms
+2023-02-11 23:32:53.778 +03:00 [INF]  Application  Starting.
+2023-02-11 23:32:56.363 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 23:32:57.439 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:32:57.439 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:32:57.441 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:32:57.441 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:32:57.441 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:32:59.077 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:32:59.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 160.8106ms
+2023-02-11 23:32:59.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:32:59.610 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 160.5623ms
+2023-02-11 23:33:10.361 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:33:10.378 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:33:10.378 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:33:10.384 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:33:10.384 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:33:10.446 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:33:10.505 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:33:10.791 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:33:10.810 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 289.5458ms
+2023-02-11 23:33:10.816 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:33:10.817 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 456.6257ms
+2023-02-11 23:40:11.365 +03:00 [INF]  Application  Starting.
+2023-02-11 23:40:15.674 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:40:15.679 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:40:15.680 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:40:15.680 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:40:15.681 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:40:17.142 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:40:17.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 143.0393ms
+2023-02-11 23:40:17.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:40:17.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.1412ms
+2023-02-11 23:40:31.133 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:40:31.142 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:40:31.145 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:40:31.150 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:40:31.150 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:40:31.185 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:40:31.238 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:40:31.557 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:40:31.572 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 320.8325ms
+2023-02-11 23:40:31.575 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:40:31.575 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 441.8769ms
+2023-02-11 23:43:39.316 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:43:39.329 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:43:39.329 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:43:39.330 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:43:39.332 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:43:39.336 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:43:39.339 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:43:39.345 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:43:39.347 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 4.5121ms
+2023-02-11 23:43:39.348 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:43:39.351 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 34.6322ms
+2023-02-11 23:48:28.366 +03:00 [INF]  Application  Starting.
+2023-02-11 23:48:31.300 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 23:48:31.305 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 23:48:31.306 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 23:48:31.306 +03:00 [INF] Hosting environment: Development
+2023-02-11 23:48:31.306 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-11 23:48:32.797 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 23:48:33.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 214.0085ms
+2023-02-11 23:48:33.208 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 23:48:33.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.4778ms
+2023-02-11 23:49:06.145 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93
+2023-02-11 23:49:06.152 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:49:06.156 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:49:06.158 +03:00 [INF] CORS policy execution failed.
+2023-02-11 23:49:06.159 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 23:49:06.188 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:49:06.231 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-11 23:49:06.557 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-11 23:49:06.569 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 325.8891ms
+2023-02-11 23:49:06.571 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-11 23:49:06.571 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 93 - 200 - text/plain;+charset=utf-8 427.1346ms
