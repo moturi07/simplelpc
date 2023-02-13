@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lpcApp</name>
+    </assembly>
+    <members>
+        <member name="M:lpcApp.Controllers.LoansController.SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView)">
+            <summary>
+             This is a calculate api that receives loan application data and gives amortization Schedule
+            </summary>
+        </member>
+    </members>
+</doc>

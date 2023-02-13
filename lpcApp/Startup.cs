@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Serilog;
+using System.Reflection;
 
 namespace lpcApp
 {
@@ -54,6 +55,8 @@ namespace lpcApp
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                c.IncludeXmlComments(xmlFilename);
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",

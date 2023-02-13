@@ -25,12 +25,22 @@ namespace lpcApp.Controllers
         /// <summary>
         ///  This is a calculate api that receives loan application data and gives amortization Schedule
         /// </summary>
+        /// <remarks>
+        /// Sample value of message
+        /// {
+        /// "loanAmount": 100,
+        /// "loanMonths": 12,
+        /// "interestRate": 10,
+        /// "repaymentFrequency": "Monthly" /*Bi Monthly, Weekly*/
+        /// }
+        /// </remarks>
         [HttpPost, Route("calculate")]
         public async Task<ActionResult<string>> SaveAccountDataAsync([FromBody] LoanApplicationView model)
         {
             try
             {
                 return Ok(_loansService.CalculateLoanPayment(model));
+                //return Ok(_loansService.CalculateLoanPayment2(model));
             }
             catch (Exception ex)
             {

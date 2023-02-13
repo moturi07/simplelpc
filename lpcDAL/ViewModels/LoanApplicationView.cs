@@ -12,6 +12,6 @@ namespace lpcDAL.ViewModels
         public double LoanAmount { get; set; } = 0;
         public int LoanMonths { get; set; }
         public double InterestRate { get; set; }        
-        public RepaymentFrequencies RepaymentFrequency { get; set; }
+        public string RepaymentFrequency { get; set; }
     }
 }

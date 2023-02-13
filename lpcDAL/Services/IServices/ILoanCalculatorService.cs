@@ -10,5 +10,6 @@ namespace lpcDAL.Services.IServices
     public interface ILoanCalculatorService
     {
         string CalculateLoanPayment(LoanApplicationView model);
+        string CalculateLoanPayment2(LoanApplicationView model);
     }
 }

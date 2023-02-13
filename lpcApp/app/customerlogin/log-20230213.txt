@@ -1,0 +1,250 @@
+2023-02-13 10:42:53.047 +03:00 [INF]  Application  Starting.
+2023-02-13 10:42:57.999 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-13 10:42:58.005 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-13 10:42:58.006 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-13 10:42:58.007 +03:00 [INF] Hosting environment: Development
+2023-02-13 10:42:58.007 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-13 10:43:00.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-13 10:43:00.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 241.6333ms
+2023-02-13 10:43:00.849 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-13 10:43:01.036 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.3690ms
+2023-02-13 10:43:20.369 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-13 10:43:20.379 +03:00 [INF] CORS policy execution successful.
+2023-02-13 10:43:20.385 +03:00 [INF] CORS policy execution successful.
+2023-02-13 10:43:20.428 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 10:43:20.506 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-13 10:43:20.880 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-13 10:43:20.895 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 375.4052ms
+2023-02-13 10:43:20.898 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 10:43:20.898 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 529.7683ms
+2023-02-13 10:44:33.662 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-13 10:44:33.672 +03:00 [INF] CORS policy execution successful.
+2023-02-13 10:44:33.672 +03:00 [INF] CORS policy execution successful.
+2023-02-13 10:44:33.673 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 10:44:33.677 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-13 10:44:33.686 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-13 10:44:33.687 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 3.0587ms
+2023-02-13 10:44:33.690 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 10:44:33.693 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 32.1685ms
+2023-02-13 10:50:04.610 +03:00 [INF]  Application  Starting.
+2023-02-13 10:50:07.717 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-13 10:50:07.722 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-13 10:50:07.722 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-13 10:50:07.723 +03:00 [INF] Hosting environment: Development
+2023-02-13 10:50:07.723 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-13 10:50:09.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-13 10:50:09.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 207.0567ms
+2023-02-13 10:50:09.833 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-13 10:50:10.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.7039ms
+2023-02-13 10:50:31.863 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92
+2023-02-13 10:50:31.869 +03:00 [INF] CORS policy execution successful.
+2023-02-13 10:50:31.871 +03:00 [INF] CORS policy execution successful.
+2023-02-13 10:50:31.903 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 10:50:31.953 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-13 10:50:32.240 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-13 10:50:32.259 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 292.2983ms
+2023-02-13 10:50:32.262 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 10:50:32.263 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Loans/calculate application/json-patch+json 92 - 200 - text/plain;+charset=utf-8 407.8270ms
+2023-02-13 11:02:10.144 +03:00 [INF]  Application  Starting.
+2023-02-13 11:02:15.313 +03:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2023-02-13 11:02:15.566 +03:00 [FTL] The Application failed to start.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at lpcApp.Program.Main(String[] args) in C:\Users\moturi george\source\repos\simplelpc\lpcApp\Program.cs:line 32
+2023-02-13 11:02:42.233 +03:00 [INF]  Application  Starting.
+2023-02-13 11:02:47.784 +03:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2023-02-13 11:02:47.925 +03:00 [FTL] The Application failed to start.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at lpcApp.Program.Main(String[] args) in C:\Users\moturi george\source\repos\simplelpc\lpcApp\Program.cs:line 32
+2023-02-13 11:03:11.629 +03:00 [INF]  Application  Starting.
+2023-02-13 11:03:17.325 +03:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2023-02-13 11:03:17.434 +03:00 [FTL] The Application failed to start.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at lpcApp.Program.Main(String[] args) in C:\Users\moturi george\source\repos\simplelpc\lpcApp\Program.cs:line 32
+2023-02-13 11:04:03.601 +03:00 [INF]  Application  Starting.
+2023-02-13 11:04:06.853 +03:00 [INF] Now listening on: https://localhost:44351
+2023-02-13 11:04:06.862 +03:00 [INF] Now listening on: http://localhost:34361
+2023-02-13 11:04:06.863 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-13 11:04:06.864 +03:00 [INF] Hosting environment: Development
+2023-02-13 11:04:06.864 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-13 11:04:08.547 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger - -
+2023-02-13 11:04:08.803 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger - - - 301 0 - 261.3323ms
+2023-02-13 11:04:08.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2023-02-13 11:04:09.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 120.0228ms
+2023-02-13 11:04:09.080 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - -
+2023-02-13 11:04:09.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - -
+2023-02-13 11:04:09.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - -
+2023-02-13 11:04:09.124 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-02-13 11:04:09.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - - - 200 144929 text/css 49.3404ms
+2023-02-13 11:04:09.148 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-02-13 11:04:09.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 73.4503ms
+2023-02-13 11:04:09.198 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-02-13 11:04:09.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 117.6496ms
+2023-02-13 11:04:09.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - -
+2023-02-13 11:04:09.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/favicon-32x32.png - -
+2023-02-13 11:04:09.596 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-02-13 11:04:09.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/favicon-32x32.png - - - 200 628 image/png 4.0028ms
+2023-02-13 11:04:09.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.0160ms
+2023-02-13 11:27:55.348 +03:00 [INF]  Application  Starting.
+2023-02-13 11:27:59.776 +03:00 [INF] Now listening on: https://localhost:44351
+2023-02-13 11:27:59.782 +03:00 [INF] Now listening on: http://localhost:34361
+2023-02-13 11:27:59.783 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-13 11:27:59.783 +03:00 [INF] Hosting environment: Development
+2023-02-13 11:27:59.783 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplelpc\lpcApp
+2023-02-13 11:28:02.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2023-02-13 11:28:02.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 239.9365ms
+2023-02-13 11:28:02.782 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - -
+2023-02-13 11:28:03.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 232.6339ms
+2023-02-13 11:28:55.631 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44351/api/Loans/calculate application/json-patch+json 100
+2023-02-13 11:28:55.638 +03:00 [INF] CORS policy execution successful.
+2023-02-13 11:28:55.643 +03:00 [INF] CORS policy execution successful.
+2023-02-13 11:28:55.681 +03:00 [INF] Executing endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 11:28:55.739 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Loans"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(lpcDAL.ViewModels.LoanApplicationView) on controller lpcApp.Controllers.LoansController (lpcApp).
+2023-02-13 11:28:56.036 +03:00 [INF] Calculate amortization Schedule for : lpcDAL.ViewModels.LoanApplicationView
+2023-02-13 11:28:56.107 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-13 11:28:56.125 +03:00 [INF] Executed action lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp) in 371.2012ms
+2023-02-13 11:28:56.127 +03:00 [INF] Executed endpoint 'lpcApp.Controllers.LoansController.SaveAccountDataAsync (lpcApp)'
+2023-02-13 11:28:56.128 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44351/api/Loans/calculate application/json-patch+json 100 - 200 - text/plain;+charset=utf-8 496.4292ms
